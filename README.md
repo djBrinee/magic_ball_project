@@ -1,16 +1,10 @@
-# magic_ball
+# Magic Ball Project
 
-A new Flutter project.
+Showing learning in stateful widgets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In this project, we have 6 images with a magic ball and a single message, 
+when you click the image (implemented as button) the image will change randomly.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
