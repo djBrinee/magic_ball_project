@@ -9,13 +9,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Scaffold(
-        backgroundColor: Colors.blue,
-        appBar: AppBar(
-          backgroundColor: Colors.blue.shade900,
-          title: Text('Ask Me Anything'),
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: Colors.blue,
+          appBar: AppBar(
+            backgroundColor: Colors.blue.shade900,
+            title: Text('Ask Me Anything'),
+          ),
+          body: Ball()
         ),
-        body: Ball()
       ),
     );
   }
