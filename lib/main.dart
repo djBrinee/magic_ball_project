@@ -5,6 +5,8 @@ import 'Ball.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,9 +16,9 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           appBar: AppBar(
             backgroundColor: Colors.blue.shade900,
-            title: Text('Ask Me Anything'),
+            title: const Text('Ask Me Anything'),
           ),
-          body: Ball()
+          body: const Ball()
         ),
       ),
     );
